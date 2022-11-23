@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .getcenter{
+            width: 80%;
+            border: 5px solid;
+            border-color: azure;
+            margin: auto;
+            margin-top: 50px;
+            padding: 10px;
+            background-color: rgb(59, 59, 60);
+            color: rgb(244, 248, 247);
+        }
+        .btn_beauty{
+            width : 100%;
+            height: 50px; 
+            color: black; 
+        }
+    </style>
+    <title>Calculator without bootstrap</title>
+</head>    
+<body style="background-color: rgb(65, 68, 71);">
+    <div> </div>
+    <div class="getcenter" > 
+       <div> <h1 style="text-align: center; "> Calculator </h1> </div>
+
+       <!-- text area to show operation-->
+        <input type="text" readonly style="width : 100%; height: 60px;"> 
+
+        <table id = "tablefortask" style="width:100%; margin-left: auto; margin-right: auto;">
+            <tbody>
+
+                <!-- 1st row-->
+                <tr style="width:100%; margin-left: auto; margin-right: auto;">
+                    <th><input type="button"class = "btn_beauty" value="C" placeholder="C"> </th>
+                    <th><input type="button"class = "btn_beauty" value="CE" placeholder="CE"> </th>
+                    <th><input type="button"class = "btn_beauty" value="X" placeholder="X"> </th>
+                    <th><input type="button"class = "btn_beauty" value="/" placeholder="/"> </th>
+                </tr>
+
+                <!-- 2nd row-->
+                <tr style="width:100%; margin-left: auto; margin-right: auto;">
+                    <td><input type="button"class = "btn_beauty" value="7" placeholder="7"> </td>
+                    <td><input type="button"class = "btn_beauty" value="8" placeholder="8"> </td>
+                    <td><input type="button"class = "btn_beauty" value="9" placeholder="9"> </td>
+                    <td><input type="button"class = "btn_beauty" value="*" placeholder="*"> </td>
+                </tr>
+
+                <!-- 3rd row-->
+                <tr style="width:100%; margin-left: auto; margin-right: auto;">
+                    <td><input type="button"class = "btn_beauty" value="4" placeholder="4"> </td>
+                    <td><input type="button"class = "btn_beauty" value="5" placeholder="5"> </td>
+                    <td><input type="button"class = "btn_beauty" value="6" placeholder="6"> </td>
+                    <td><input type="button"class = "btn_beauty" value="-" placeholder="-"> </td>
+                </tr>
+
+                <!-- 4th row-->
+                <tr style="width:100%; margin-left: auto; margin-right: auto;">
+                    <td><input type="button"class = "btn_beauty" value="1" placeholder="1"> </td>
+                    <td><input type="button"class = "btn_beauty" value="2" placeholder="2"> </td>
+                    <td><input type="button"class = "btn_beauty" value="3" placeholder="3"> </td>
+                    <td><input type="button"class = "btn_beauty" value="+" placeholder="+"> </td>
+                </tr>
+
+                
+                <!--  5th row-->
+                <tr style="width:100%; margin-left: auto; margin-right: auto;">
+                    <td><input type="button"class = "btn_beauty" value="%" placeholder="%"> </td>
+                    <td><input type="button"class = "btn_beauty" value="0" placeholder="0"> </td>
+                    <td><input type="button"class = "btn_beauty" value="." placeholder="."> </td>
+                    <td><input type="button"class = "btn_beauty" value="=" placeholder="="> </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
